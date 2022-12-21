@@ -1,7 +1,13 @@
+package sinteza.silviu_test;
+
 public class Eticheta extends Dreptunghi {
 
     public Eticheta(String forma, String element) {
         super(forma, element);
+
+    }
+
+    public Eticheta() {
 
     }
 

@@ -1,3 +1,5 @@
+package sinteza.silviu_test;
+
 public class Cerc extends DeseneGeometrice {
 
     String element="";
@@ -5,6 +7,10 @@ public class Cerc extends DeseneGeometrice {
     public Cerc(String patrat,String element) {
         super(patrat);
         this.element=element;
+    }
+
+    public Cerc() {
+
     }
 
     public String getElement() {

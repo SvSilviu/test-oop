@@ -1,3 +1,5 @@
+package sinteza.silviu_test;
+
 public class DeseneGeometrice {
 
     private String patrat = "";
