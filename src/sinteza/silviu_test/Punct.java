@@ -1,3 +1,5 @@
+package sinteza.silviu_test;
+
 public class Punct extends DeseneGeometrice {
 
     int x = 0;
@@ -7,6 +9,10 @@ public class Punct extends DeseneGeometrice {
         super(forma);
         this.x = x;
         this.y = y;
+    }
+
+    public Punct() {
+
     }
 
     public int getX() {
@@ -27,7 +33,7 @@ public class Punct extends DeseneGeometrice {
 
     public String afisarePunct() {
         String text = "";
-        text += super.afisare() + "Punct este definit de coordonatele x,y";
+        text += super.afisare() + "sinteza.silviu_test.Punct este definit de coordonatele x,y";
         return text;
     }
 

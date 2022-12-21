@@ -1,3 +1,5 @@
+package sinteza.silviu_test;
+
 public class Dreptunghi extends DeseneGeometrice {
 
     String element = "";
@@ -5,6 +7,10 @@ public class Dreptunghi extends DeseneGeometrice {
     public Dreptunghi(String forma, String element) {
         super(forma);
         this.element = element;
+    }
+
+    public Dreptunghi() {
+
     }
 
     public String getElement() {

@@ -1,9 +1,15 @@
+package sinteza.silviu_test;
+
 public class Linie extends DeseneGeometrice {
     String element = "";
 
     public Linie(String forma, String element) {
         super(forma);
         this.element = element;
+    }
+
+    public Linie() {
+
     }
 
     public String getElement() {
