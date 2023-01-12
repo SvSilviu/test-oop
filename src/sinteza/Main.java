@@ -1,7 +1,6 @@
 package sinteza;
 
-import sinteza.corectare.Figura;
-import sinteza.corectare.Punct;
+import sinteza.corectare.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,20 +23,28 @@ public class Main {
 
         int x = 3, y = 5;
 
-        Figura punct1 = new Punct(x, y);
+        String text = "Eu sunt eticheta";
+        Punct punct1 = new Punct(x, y);
+        Punct punct2 = new Punct(x,y);
+        Punct punctLinie = new Punct(x,y);
+        Punct punctLinie2 = new Punct(x,y);
+        Punct punctCerc = new Punct(x,y);
+        Punct punctDreptunghi = new Punct(x,y);
+        Punct punctDreptunghi2 = new Punct(x,y);
 
 
-//        punct1.afisare();
-//        punct1.translate(x, y);
-//        System.out.println(punct1.duplicare());
-//        System.out.println(punct1.equals(punct1));
 
-        Figura dreptunghi = new Punct(x, y);
+
+        Linie linie = new Linie(punctLinie,punctLinie2);
+        Dreptunghi dreptunghi = new Dreptunghi(punctDreptunghi,punctDreptunghi2);
+        Cerc cerc = new Cerc(punctCerc,linie);
+        Eticheta eticheta = new Eticheta(punctDreptunghi,punctDreptunghi2,text);
 
         dreptunghi.afisare();
-        dreptunghi.translate(x,y);
-        System.out.println(dreptunghi.duplicare());
-        System.out.println(dreptunghi.equals(punct1));
+        punct1.afisare();
+        linie.afisare();
+        cerc.afisare();
+        eticheta.afisare();
 
 
     }
