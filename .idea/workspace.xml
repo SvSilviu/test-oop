@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0678321c-1127-446e-a013-0a91ad23d859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/teste/sinteza/corectare/DesenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exemplu/FiguraSilviu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste/exemplu/FiguraGeometricaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sinteza/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/corectare/Dreptunghi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sinteza/corectare/Dreptunghi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/corectare/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sinteza/corectare/Figura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/corectare/Punct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sinteza/corectare/Punct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/Cerc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/DeseneGeometrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/Dreptunghi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/Eticheta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/Linie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/Punct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sinteza/silviu_test/controlElemente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +55,26 @@
       <recent name="sinteza.corectare" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EqualsExample.testNou">
+  <component name="RunManager" selected="JUnit.FiguraGeometricaTest.testare">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sinteza.Main" />
       <module name="Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FiguraGeometricaTest.testare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exemplu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exemplu" />
+      <option name="MAIN_CLASS_NAME" value="exemplu.FiguraGeometricaTest" />
+      <option name="METHOD_NAME" value="testare" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FiguraGeometricaTest.testare" />
         <item itemvalue="TestNG.EqualsExample.testNou" />
         <item itemvalue="TestNG.DesenTest.testDesen" />
         <item itemvalue="Application.Main" />

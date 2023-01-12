@@ -7,7 +7,7 @@ public class DesenGeometric implements FiguraGeometrica {
     private ArrayList<FiguraGeometrica> listaFiguri;
 
     public DesenGeometric(ArrayList<FiguraGeometrica> listaFiguri) {
-        this.listaFiguri = new ArrayList<FiguraGeometrica>();
+        this.listaFiguri =listaFiguri;
     }
 
     public void adaugaElement(FiguraGeometrica element) {
