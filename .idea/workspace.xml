@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0678321c-1127-446e-a013-0a91ad23d859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exemplu/FiguraSilviu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste/exemplu/FiguraGeometricaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +50,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exemplu" />
       <recent name="sinteza.corectare" />
     </key>
   </component>
