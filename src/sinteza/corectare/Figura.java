@@ -16,6 +16,7 @@ public class Figura {
     public Figura duplicare() {
 
         System.out.println("Duplicare");
+
         return null;
     }
 }

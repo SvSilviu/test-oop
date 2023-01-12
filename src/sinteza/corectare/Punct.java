@@ -34,7 +34,7 @@ public class Punct extends Figura {
 
     @Override
     public String toString() {
-        return "Punct{" + "x=" + x + ", y=" + y + '}';
+        return "x = " + x + " si " + "y = " + y;
     }
 
     @Override

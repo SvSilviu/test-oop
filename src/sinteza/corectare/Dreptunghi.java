@@ -34,16 +34,14 @@ public class Dreptunghi extends Figura {
 
     @Override
     public String toString() {
-        return "Dreptunghi{" +
-                "punct1=" + punct1 +
-                ", punct2=" + punct2 +
-                '}';
+        return "Dreptunghi: " +punct1 +" "+ punct2;
     }
 
     @Override
     public boolean equals(Object object) {
         Dreptunghi d = (Dreptunghi) object;
-        return this.punct1 == d.punct1 && this.punct2 == d.punct2;
+        return (this.punct1.equals(d.getPunct1()) || this.punct1.equals(d.getPunct2())) &&
+                (this.punct2.equals(d.getPunct1()) || this.punct2.equals(d.getPunct2()));
     }
 
     @Override
